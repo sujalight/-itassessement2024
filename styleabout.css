@@ -64,7 +64,7 @@ p{
 
 .row{
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-wrap: wrap;
     justify-content: space-around;
 }
