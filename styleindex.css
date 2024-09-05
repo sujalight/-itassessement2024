@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:  #000000;
+}
+p{
+    color:#222121;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    
+}
+
+.col-0 img{
+    max-width: 500px;
+    padding: 0 50px ;
+    float: right;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{ 
+    display: inline-block;
+    background: #f17334a4;
+    color:black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.8s;
+}
+.btn:hover{
+    background: rgb(224, 21, 21);
+}
+.header {
+    background: radial-gradient(#e9bc9f,#de8192);
+}
+.header .row{
+    margin-top: 70px;
+}
+.Categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+
+.small-container1{
+    max-width: 100%px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+
+}
+.col-4 img{
+    width: 100%;
+
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #000000;
+}
+
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+
+.rating .fa{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.offer{
+    background: radial-gradient(#e9bc9f,#de8192);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2  .offer-img{
+     padding: 100px;
+}
+small{
+    color: #000000;
+}
+.about h2{
+text-align: left;
+}   
+.about p{
+    max-width: 1000px;
+    text-align: justify;
+}
+.Testimonial{
+    padding-top: 100px;
+}
+.Testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+}
+.Testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.Testimonial .col-3:hover{
+    transform: translateY(-3px);
+    transition: transform 0.8s;
+}
+.footer{
+    background: #000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+
+.footer p{
+    color: #afafaf;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.app-logo{
+    margin-top: 20px;
+
+}
+.app-logo img{
+    width: 120px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f9741b;
+    color: white;
+    border: 2px;
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    display: none; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000; 
+    transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: #ff3300; 
+}
+/*---thumbnail----------*/
